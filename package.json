@@ -1,5 +1,5 @@
 {
-  "name": "easyHandlebars",
+  "name": "easy-handlebars",
   "version": "0.0.1",
   "description": "Compilation of Handlebars templates from Gulp made Easy",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rogerpadilla/easyHandlebars.git"
+    "url": "git+https://github.com/rogerpadilla/easy-handlebars.git"
   },
   "keywords": [
     "compile",
@@ -19,7 +19,7 @@
   "author": "Roger Padilla",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rogerpadilla/easyHandlebars/issues"
+    "url": "https://github.com/rogerpadilla/easy-handlebars/issues"
   },
-  "homepage": "https://github.com/rogerpadilla/easyHandlebars#readme"
+  "homepage": "https://github.com/rogerpadilla/easy-handlebars#readme"
 }
