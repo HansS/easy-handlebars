@@ -92,4 +92,5 @@ EasyHandlebars.prototype.normalizeOpts = function (opts) {
     return xtend({noData: {}, defaultCompilerOpts: {}}, opts);
 };
 
+
 module.exports = EasyHandlebars;
