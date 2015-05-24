@@ -1,6 +1,6 @@
 {
   "name": "easy-handlebars",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compilation of Handlebars templates from Gulp made Easy",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/rogerpadilla/easy-handlebars/issues"
   },
-  "homepage": "https://github.com/rogerpadilla/easy-handlebars#readme"
+  "homepage": "https://github.com/rogerpadilla/easy-handlebars#readme",
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "xtend": "^4.0.0",
+    "through2": "^0.6.5",
+    "glob": "^5.0.9"
+  }
 }
