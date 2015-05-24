@@ -17,6 +17,15 @@ function arrToObj(arr) {
 }
 
 function EasyHandlebars(files, opts) {
+    
+    if (!opts) {
+        opts = {};
+    }
+    
+    if (!opts.detectPartial) {
+        // Compile all as partials by default.
+        opts.detectPartial = opts.detectPartial || /./;   
+    }    
 
     if (!(this instanceof EasyHandlebars)) {
         return new EasyHandlebars(files, opts);

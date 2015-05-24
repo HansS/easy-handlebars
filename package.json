@@ -1,6 +1,6 @@
 {
   "name": "easy-handlebars",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Compilation of Handlebars templates from Gulp made Easy",
   "main": "index.js",
   "scripts": {
