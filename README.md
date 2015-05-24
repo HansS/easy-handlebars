@@ -7,7 +7,7 @@ npm install easy-handlebars --save-dev
 ```
 **Example**.
 
-1. Compile your TPLs with Gulp:
+- Compile your TPLs with Gulp:
 ```javascript
 var source = require('vinyl-source-stream');
 
@@ -23,8 +23,8 @@ gulp.task('tpl', function() {
         .pipe(gulp.dest('./public/js'));
 });
 ```
-2. Include the 'Handlebars.runtime.js' library and the resulting .js file of compiling the TPLs in your app.
-3. Use your TPLs:
+- Include the 'Handlebars.runtime.js' library and the resulting .js file of compiling the TPLs in your app.
+- Use your TPLs:
 ```javascript
 var someTplFileNameTpl = Handlebars.partials['someTplFileName'];
 var someTplFileNameHtml = someTplFileNameTpl();
