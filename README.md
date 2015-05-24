@@ -1,10 +1,11 @@
 # easy-handlebars
 Compilation of Handlebars templates from Gulp made easy.
 
-Install it via [npm](https://www.npmjs.com/):
+Install the 'easy-handlebars' module:
 ``` bash
 npm install easy-handlebars --save-dev
 ```
+
 **Example**.
 
 - Compile your TPLs with Gulp:
@@ -23,7 +24,9 @@ gulp.task('tpl', function() {
         .pipe(gulp.dest('./public/js'));
 });
 ```
+
 - Include the 'Handlebars.runtime.js' library and the resulting .js file of compiling the TPLs in your app.
+
 - Use your TPLs:
 ```javascript
 var someTplFileNameTpl = Handlebars.partials['someTplFileName'];
