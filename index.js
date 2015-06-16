@@ -76,7 +76,7 @@ EasyHandlebars.normalizeOpts = function(opts) {
 
   if (opts.nameCapturingPattern === undefined) {
     // Capture the file name without the extension by default.
-    opts.nameCapturingPattern = /.*\/([^\.]+)/;
+    opts.nameCapturingPattern = /.*\/?([^\.]+)/;
   }
 
   return xtend({noData: {}, defaultCompilerOpts: {}}, opts);
